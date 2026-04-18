@@ -5,15 +5,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
-.contener{
+/* .contenor{
     max-width: 1200px;
     margin: auto 0;
-}
+    padding-left: 20px;
+    padding-right: -20px;
+} */
 body{
     width: 100%;
     height: auto;
-    /* margin: 10px; */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -56,7 +61,7 @@ header li .nav-link:focus{
 }
 /* section de l'image */
 .hero-section{
-    width: 100%;
+    width: auto;
     height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)),url('/img/home.png') ;
@@ -68,28 +73,33 @@ header li .nav-link:focus{
     background-size: cover;
     background-repeat: no-repeat;
     filter: contrast(1.1) brightness(0.9);
-    padding: 300px;
+    
+    
 }
 .hero-section .btn{
     position: relative;
-    top: 10px;
-    width: 100px;
+    top: 300px;
+    width: 120px;
     height:30px;
     border-radius: 40px;
     font-family: roboto;
+    font-size: 1rem;
     color: #ffffff;
     background-color: purple;
     border: none;
     cursor: pointer;
+    /* margin: 10px; */
         
 }
 .hero-section h1{
     color: #ffffff;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     font-family: roboto;
     font-size: 2.5rem;
     animation: float 3s ease-in-out infinite;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 300px;
 }
 /* About section */
 .about-section{
@@ -133,7 +143,61 @@ header li .nav-link:focus{
     cursor: pointer;
     
 }
+.event{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url('/img/restauration.png');
+    /* margin: auto 0; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    /* padding: 20px; */
+}
+.event{
+    font-family: roboto;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.event p{
+    font-size: 1rem;
 
+}
+.gale{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+    position: relative;
+    top: 50px;
+}
+.gal-part{
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 100px;
+    height:200px ;
+    border-radius: 20px;
+    transition: transform 0.8s ease;
+
+}
+.gal-part:hover{
+    transform: scale(1.1);
+}
+.galery{
+    color: #000;
+    font-family: roboto;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
 
 /* animation */
 @keyframes float {
