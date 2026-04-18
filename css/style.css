@@ -46,7 +46,7 @@ header li{
 header h1{
     padding: 20px;
     margin: 10px;
-    color:purple;
+    color:#00bbf9;
     font-size: 2rem;
 }
 header li .nav-link{
@@ -56,7 +56,7 @@ header li .nav-link{
     
 }
 header li .nav-link:focus{
-    color: purple;
+    color: #00bbf9;
     
 }
 /* section de l'image */
@@ -78,14 +78,14 @@ header li .nav-link:focus{
 }
 .hero-section .btn{
     position: relative;
-    top: 300px;
-    width: 120px;
-    height:30px;
-    border-radius: 40px;
+    top: 290px;
+    width: 250px;
+    height:50px;
+    border-radius: 30px;
     font-family: roboto;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #ffffff;
-    background-color: purple;
+    background-color: rgb(243, 6, 14);
     border: none;
     cursor: pointer;
     /* margin: 10px; */
@@ -99,7 +99,7 @@ header li .nav-link:focus{
     animation: float 3s ease-in-out infinite;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    top: 300px;
+    top: 250px;
 }
 /* About section */
 .about-section{
@@ -116,7 +116,7 @@ header li .nav-link:focus{
     /* margin: 20px; */
 }
 .about-section .text h1{
-    color: purple;
+    color: #00bbf9;
     font-family: roboto;
     font-size: 2rem;
 
@@ -138,7 +138,7 @@ header li .nav-link:focus{
     font-family: roboto;
     font-size: 1rem;
     color: #ffffff;
-    background-color: purple;
+    background-color: #00bbf9;
     border: none;
     cursor: pointer;
     
