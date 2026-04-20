@@ -64,7 +64,7 @@ header li .nav-link:hover {
 .hero-section {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url('/img/home.png');
+            rgba(0, 0, 0, 0.5)), url('/img/home.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ header li .nav-link:hover {
 .event {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url('/img/restauration.png');
+            rgba(0, 0, 0, 0.5)), url('/img/restauration.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
