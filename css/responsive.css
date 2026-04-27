@@ -6,13 +6,13 @@
 
     .about-image {
         order: -1;
-        /* image en haut (optionnel) */
+        
     }
 
     .about {
         padding: 20px;
     }
-}/* espace responsive */
+}
 @media (max-width: 768px) {
 
     header {
@@ -50,5 +50,10 @@
 
     .event h1 {
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 768px){
+    .rooms-1{
+        width: 50%;
     }
 }
