@@ -56,4 +56,7 @@
     .rooms-1{
         width: 50%;
     }
+    .rooms-detail {
+            grid-template-columns: 1fr;
+    }
 }

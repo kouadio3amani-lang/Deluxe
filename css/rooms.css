@@ -14,9 +14,44 @@
     
 }
 .rooms-case{
-    /* width: 100%; */
-    flex: 1 1 200px;
+    flex: 1 1 auto;
     min-height: 300px;
     max-width: 100%;
-    /* border-radius: 20px; */
+    border-radius: 20px;
+    transition: 3s ease;
 }
+.rooms-case:hover{
+    transform: translateY(-5px);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.rooms-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.rooms-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rooms-case {
+    flex: 1;
+    min-height: 300px;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+
+    
+    background: #f5f5f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.rooms-case:hover {
+    transform: translateY(-5px);
+} */
